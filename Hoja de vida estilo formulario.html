@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Hoja de vida</title>
+
+  </head>
+  <body bgcolor="LavenderBlush">
+        
+    <div class="container">      
+        <div class="row">
+          <div class="col-xs-12"> 
+         <center> <h1><i><font color="DarkGray"><font size="20">Hoja de Vida</font></font></i></h1></center>    
+
+            <form id = "formulario" role="form" action="" method="POST">
+
+              <h2><b><i>Datos Personales</i></b></h2>
+
+               <div class="form-group">
+                  <label for="ocupación"><b>Ocupación</b></label>
+                  <input id="ocupación" type="text" name="ocupación" class width="form-control" size="30px" value="Estudiante de Licenciatura en química" required>
+                </div>
+            
+                <div class="form-group">
+                  <label for="nombre completo"><b>Nombre completo</b></label>
+                  <input id="nombre completo" type="text" name="nombre completo" class="form-control" value="Lina Campos" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="fecha de nacimiento"><b>Fecha de nacimiento</b></label>
+                  <input id="fecha de nacimiento" type="date" name="Fecha de nacimiento" class="form-control" value="2002-04-05" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="dirección"><b>Dirección</b></label>
+                  <input id="dirección" type="text" name="dirección" class="form-control" size="40px" value="La Villa de Los Santos, Los Santos, Panamá." required>
+                </div> <br>
+
+                <h2><b><i>Contacto</i></b></h2>
+
+                 <div class="form-group">
+                  <label for="email"><b>E-mail</b></label>
+                  <input id="email" type="email" name="email" class="form-control" value="linacamposlopez@gmail.com" required>
+                </div><br>
+
+                <h2><b><i>Historial académico</i></b></h2>
+
+                <table border="2" bgcolor="GhostWhite">
+
+               <tr>
+       <td><center><b>Educación</b></center></td>
+       <td><center><b>historial</b></center></td> 
+   </tr>
+  <tr>
+       <td><div class="form-group">
+                  <label for="Licenciatura"><b>Licenciatura</b></label>
+                  <td><input id="Licenciatura" type="text" name="Licenciatura" class="form-control" value="Primer semestre de Lic. en química, Segundo semestre en curso. UP(2021)-" size="60px" required>
+                </div></td>
+   </tr>
+
+  <tr>
+       <td><div class="form-group">
+                  <label for="Bachiller en Ciencias"><b>Bachiller en Ciencias</b></label></td>
+                  <td><input id="Bachiller en Ciencias" type="text" name="Bachiller en Ciencias" class="form-control" value="Instituto Coronel Segundo de Villareal (2018-2020)" size="50px" required>
+                </td></div> 
+     </tr>
+
+   <tr>
+       <td><div class="form-group">
+                  <label for="Educación Básica General"><b>Educación Básica General</b></label>
+                  <td><input id="Educación Básica General" type="text" name="Educación Básica General" class="form-control" value="Instituto Profesional Ténico Agropecuario de Tonosí (2015-2017)" size="50px" required>
+                </div></td>
+
+   </tr>
+ </table><br>
+
+   <h2><b><i>Competencias y Habilidades</i></b></h2>
+
+                 <div class="form-group">
+                  <label for="Idiomas"><b>Idiomas</b></label>
+                  <input id="Idiomas" type="text" name="Idiomas" class="form-control" value="Inglés básico" required>
+                </div>
+
+                 <div class="form-group">
+                  <label for="Lengua de señas"><b>Lengua de señas</b></label>
+                  <input id="Lengua de señas" type="text" name="Lengua de señas" class="form-control" value="Lengua de señas panameña nivel 3A" required>
+                </div>
+   
+                <div class="form-group">
+                  <label for="Cursos"><b>Cursos</b></label>
+                  <input id="Cursos" type="text" name="Cursos" class="form-control" value="Exel Fundamentos y Herramientas" size="30px" required>
+                </div><br>
+
+                <div class="form-group">
+                 <label for="Trabajo en equipo"><b>Trabajo en equipo</b></label>
+                <input type="checkbox" id="Trabajo en equipo" name="Trabajo en equipo" value="Trabajo en equipo" checked="Trabajo en equipo"></div>
+
+                <div class="form-group">
+                 <label for="Liderazgo"><b>Liderazgo</b></label>
+                <input type="checkbox" id="Liderazgo" name="Liderazgo" value="Liderazgo" checked="Liderazgo"></div>
+
+                 <label for="Proactividad"><b>Proactividad</b></label>
+                <input type="checkbox" id="Proactividad" name="Proactividad" value="Proactividad" checked="Proactividad"></div>
+
+               <div class="form-group">
+                <label for="Buena capacidad de comunicación"><b>Buena capacidad de comunicación</b></label>
+               <input type="checkbox" id="Buena capacidad de comunicación" name="Buena capacidad de comunicación" value="Buena capacidad de comunicación" checked="Buena capacidad de comunicación"></div><br>
+
+               <h2><b><i>Interés profesional</i></b></h2>
+
+               <div class="form-group">
+
+                  <label for="Interés profesional"><b>Interés profesional</b></label><br>
+                  <textarea id="Interés profesional" name="Interés profesional" class="form-control" cols="20" rows="7"required>Mejorar la relación entre la población y el ambiente, buscando reducir el daño ambiental de manera personal y profesional.</textarea>
+                </div><br>
+
+                <input id="submit_button" name="enviar" type="submit" value="Enviar" />
+
+                <button id="borrar" type="reset">Borrar</button>
+
+            </form>
+  </body>
+</html>
